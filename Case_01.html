@@ -3,44 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 01</title>
-    <link rel="stylesheet" href="../../Internet_Exsample_project/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-">
+    <link rel="stylesheet" href="normalize.css">
 </head>
     <style>
         body{/*page eke idak thinawanan eka hide karanne meken*/
-            overflow-x: hidden;
-            overflow-y: hidden;
+            overflow: hidden;
         }
-        body>section:nth-child(1) {
-            background-color: red;
+        .lokuKotu{
             width: 50vw;
             height: 50vh;
             position: absolute;
+        }
+        body>section:nth-child(1) {
+            background-color: red;
             left: 0;
         }
         body>section:nth-child(2){
             background-color: green;
-            width: 50vw;
-            height: 50vh;
-            position: absolute;
             right: 0;
         }
         body>section:nth-child(3){
             background-color: orange;
-            width: 50vw;
-            height: 50vh;
-            position: absolute;
             bottom: 0;
             left: 0;
         }
         body>section:nth-child(4){
             background-color: deeppink;
-            width: 50vw;
-            height: 50vh;
-            position: absolute;
             bottom: 0;
             right: 0;
         }
-        body>section:nth-child(1)>div{
+        .cer{
             background-color: white;
             width: 10vw;
             height: 10vw;
@@ -52,79 +45,8 @@
             bottom: 0;
             margin: auto;
         }
-        body>section:nth-child(2)>div{
-            background-color: white;
-            width: 10vw;
-            height: 10vw;
-            border-radius:300px;
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        body>section:nth-child(3)>div{
-            background-color: white;
-            width: 10vw;
-            height: 10vw;
-            border-radius:300px;
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        body>section:nth-child(4)>div{
-            background-color: white;
-            width: 10vw;
-            height: 10vw;
-            border-radius:300px;
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section:nth-child(1)>div>div{
+        .kotu{
             background-color: red;
-            width: 3vw;
-            height: 3vw;
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section:nth-child(2)>div>div{
-            background-color: green;
-            width: 3vw;
-            height: 3vw;
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section:nth-child(3)>div>div{
-            background-color: orange;
-            width: 3vw;
-            height: 3vw;
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section:nth-child(4)>div>div{
-            background-color: deeppink;
             width: 3vw;
             height: 3vw;
             position: absolute;
@@ -194,24 +116,24 @@
         }
     </style>
 <body>
-    <section>
-        <div>
-            <div></div>
+    <section class="lokuKotu">
+        <div class="cer">
+            <div class="kotu"></div>
         </div>
     </section>
-    <section>
-        <div>
-            <div></div>
+    <section class="lokuKotu">
+        <div class="cer">
+            <div class="kotu"></div>
         </div>
     </section>
-    <section>
-        <div>
-            <div></div>
+    <section class="lokuKotu">
+        <div class="cer">
+            <div class="kotu"></div>
         </div>
     </section>
-    <section>
-        <div>
-            <div></div>
+    <section class="lokuKotu">
+        <div class="cer">
+            <div class="kotu"></div>
         </div>
     </section>
     <div id="corner1" class="corner"></div>
